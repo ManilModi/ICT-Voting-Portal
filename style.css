@@ -1,0 +1,288 @@
+header {
+  background-color:blanchedalmond;
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Add margin 0 to remove default margin */
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 10px; /* Reduce margin for better spacing */
+}
+
+
+  .nav ul {
+    margin-top: 10px; /* Adjust margin for better spacing */
+  }
+
+
+
+
+
+.body{
+  background-color: rgb(224, 202, 142);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.home {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 10px;
+}
+
+.home:hover,
+nav ul li a:hover {
+  background-color: rgb(233, 229, 156);
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  padding: 20px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .profile {
+    height: 200px;
+    width: 200px;
+  }
+
+  .main-content {
+    padding: 50px; /* Adjust padding for smaller screens */
+  }
+
+  .content-section h2 {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .content-section p {
+    font-size: 0.8em; /* Adjust font size for smaller screens */
+  }
+}
+
+.main-content {
+  padding: 100px;
+  background-image: url('bodyback.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.content-section {
+  margin-bottom: 30px;
+}
+
+.content-section h2 {
+  color: #000000;
+}
+
+.content-section p {
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  font-size:larger;
+  font-family:monospace;
+}
+
+.flex div {
+  flex: 1; /* Equal width for all items */
+  padding: 10px;
+}
+
+.logo{
+  height:70px;
+  width: 70px;
+}
+
+.logout{
+  float: right;
+}
+
+.slide{
+  height:400px;
+  width: 1000px;
+  border-color: #000000;
+  border-width: 10px;
+}
+
+.register{
+  border-color: burlywood;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.reg_form{
+  border-color: burlywood;
+  background-color: blanchedalmond;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.form{
+  float: left;
+}
+
+.signup{
+  border-color:brown;
+  background-color:coral;
+  border-radius: 30px;
+  margin-top: 50px;
+  /* height: 140px;
+  width: 200px; */
+    /* margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; */
+  
+}
+
+.win{
+  padding-bottom: 50px;
+}
+
+.marquee{
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  color:red;
+}
+
+.slider {
+  position: relative;
+  width: 100%; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+.rotator {
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.items {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images cover the entire container */
+}
+
+/* Show the first image initially */
+.items:first-child {
+  display: block;
+  animation: fade 5s infinite; /* Change image every 20 seconds */
+}
+
+/* Set animation for fading images */
+@keyframes fade {
+  0%, 100% {
+    opacity: 0; /* Start and end with transparency */
+  }
+  10%, 90% {
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.sloganarea{
+  margin-top: 110px;
+  /* background-color: rgb(72, 66, 56); */
+  /* border-radius: 30px; */
+  height:400px ;
+  color: aliceblue;
+}
+.text{
+  color: aliceblue;
+  font-size: xx-large;
+  align-items: center;
+}
+
+.votinghead{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+  background-color: chocolate;
+  height: 40px;
+  width: 250px;
+  color: #000000;
+  font-family: monospace;
+  font-size: x-large;
+}
+
+.dean{
+  border-color: burlywood;
+  background-color: blanchedalmond;
+  height: 200px;
+  border-radius: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}

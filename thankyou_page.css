@@ -1,0 +1,24 @@
+.c1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(243, 232, 232);
+    }
+    h2 {
+    font-weight: bold;
+    opacity: 1;
+    animation: fin 2.5s ;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 25px;
+    }
+    @keyframes fin {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+    }

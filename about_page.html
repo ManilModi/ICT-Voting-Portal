@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+
+<style>
+    body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(224, 202, 142);
+    }
+    section {
+    border-radius: 0.6cm;
+    padding-left: 70px;
+    padding-right: 100px;
+    margin-right: 250px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right bottom, rgb(231, 244, 183),
+    rgb(255, 225, 231));
+    }
+    .s1 {
+    margin-top: 150px;
+    }
+    strong {
+    color: #333;
+    margin-left: 20px;
+    }
+    li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+    margin-left: 20px;
+    }
+    hr {
+    border: 0;
+    border-top: 1px solid #322e2e;
+    margin: 20px;
+    }
+    #d1, #d3, #d5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    #d2, #d4, #d6 {
+    font-size: 18px;
+    color: #221f1f;
+    }
+
+    header {
+  background-color:blanchedalmond;
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Add margin 0 to remove default margin */
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 10px; /* Reduce margin for better spacing */
+}
+
+
+  .nav ul {
+    margin-top: 10px; /* Adjust margin for better spacing */
+  }
+
+
+
+
+
+.body{
+  background-color: rgb(224, 202, 142);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+h1 {
+  margin: 0;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.home {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 10px;
+}
+
+.home:hover,
+nav ul li a:hover {
+  background-color: rgb(233, 229, 156);
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  padding: 20px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .profile {
+    height: 200px;
+    width: 200px;
+  }
+
+  .main-content {
+    padding: 50px; /* Adjust padding for smaller screens */
+  }
+
+  .content-section h2 {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .content-section p {
+    font-size: 0.8em; /* Adjust font size for smaller screens */
+  }
+}
+
+.main-content {
+  padding: 100px;
+  background-image: url('bodyback.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.content-section {
+  margin-bottom: 30px;
+}
+
+.content-section h2 {
+  color: #000000;
+}
+
+.content-section p {
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  font-size:larger;
+  font-family:monospace;
+  margin-top:100px;
+  margin-right:50px;
+  margin-left:-20px;
+}
+
+.flex div {
+  flex: 1; /* Equal width for all items */
+  padding: 10px;
+}
+
+.logo{
+  height:70px;
+  width: 70px;
+}
+
+.logout{
+  float: right;
+}
+
+
+
+.register{
+  border-color: burlywood;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.reg_form{
+  border-color: burlywood;
+  background-color: blanchedalmond;
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.form{
+  float: left;
+}
+
+.signup{
+  border-color:brown;
+  background-color:coral;
+  border-radius: 30px;
+  margin-top: 50px;
+  /* height: 140px;
+  width: 200px; */
+    /* margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; */
+  
+}
+
+.win{
+  padding-bottom: 50px;
+}
+
+.marquee{
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  color:red;
+}
+
+
+
+
+
+
+
+/* Set animation for fading images */
+
+
+.sloganarea{
+  margin-top: 110px;
+  /* background-color: rgb(72, 66, 56); */
+  /* border-radius: 30px; */
+  height:400px ;
+  color: aliceblue;
+}
+.text{
+  color: aliceblue;
+  font-size: xx-large;
+  align-items: center;
+}
+
+.votinghead{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+</style>
+
+</head>
+<body >
+
+
+   <header>
+    <div class="container">
+        <a href="first.php"><img class="logo" src="logo.jpg"></a>
+        <h1 class="hover-4">ICT Voting Portal</h1>
+        <nav>
+            <ul>
+                <li class="home"><a href="first.php">Sign Up</a></li>
+                <li><a href="about_page.html">About</a></li>
+            </li>
+            <li style="float:right" class="about"><a href="first.php">Log Out</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+<section class="s1">
+<div id="d1">
+<strong>Why?</strong>
+</div>
+<hr>
+<div id="d2">
+<ul>
+<li>It's not just every student's right but also a duty to
+choose a right leader who will lead them next few
+months in every academic task or activities.</li>
+<li>By choosing a right person you can make your upcoming
+academic journey more smoother which can save a
+lot of important time of yours and can also represent your
+point of view directly to the management in a
+straight way.</li>
+<li>This process will teach you the importance of voting, also
+it will teach you that how to choose a
+perfact leader and that will help you in fututre when you
+have to choose the leader for our country.
+</li>
+<li>It also teaches the power of democracy and the power of
+unity, by which the voters can make or destroy
+any leader.</li>
+</ul>
+</div>
+</section>
+<br>
+<br>
+<section class="s2">
+<div id="d3">
+<strong>How?</strong>
+</div>
+<hr>
+<div id="d4">
+<ol>
+<li>Sign up in your device using your registred mobile number
+and otp to verify.</li>
+<li>Click on a <b>RADIO</b> button below the candidate whom
+you want to vote.</li>
+
+<li>Click on <b>VOTE</b> button to submit your vote.</li>
+</ol>
+</div>
+</section>
+<br>
+<br>
+<section class="s3">
+<div id="d5">
+<strong>When?</strong>
+</div>
+<hr>
+<div id="d6">
+<ul>
+<li>Timing of voting is :- <b>During Time period decided by respected Dean sir. </b></li>
+</ul>
+</div>
+</section>
+</body>
+</html>
