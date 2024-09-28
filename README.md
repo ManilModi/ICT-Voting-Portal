@@ -1,5 +1,7 @@
 # ICT-Voting-Portal
 
+Using PHP, MySQL and HTML and CSS
+
 Title: ICT Voting Portal
 Objectives:
 -	A secure voting system for Voters(Students) of ICT departments in particular time and result in the End.
