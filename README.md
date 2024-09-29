@@ -1,5 +1,5 @@
 # ICT-Voting-Portal
-
+A Duo Project
 Using PHP, MySQL and HTML and CSS
 
 Title: ICT Voting Portal
