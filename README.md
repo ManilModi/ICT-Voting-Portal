@@ -2,6 +2,8 @@
 A Duo Project
 Using PHP, MySQL and HTML and CSS
 
+first.php is the home page.
+
 Title: ICT Voting Portal
 Objectives:
 -	A secure voting system for Voters(Students) of ICT departments in particular time and result in the End.
